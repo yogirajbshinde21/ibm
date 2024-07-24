@@ -40,7 +40,7 @@ html, body{
 }
 
 .page1{
-height: 100%;
+height: 89%;
 /* width: 10vw; */
 display: flex;
 
@@ -56,6 +56,9 @@ display: flex;
     margin-top: 10rem;
    
     
+}
+.left div{
+    margin-top: 70px;
 }
 .right{
     width: 50%;
@@ -81,3 +84,108 @@ display: flex;
     color: rgba(128, 128, 128, 0.527);
     font-weight: bold;
 } 
+
+h2{
+    padding-top: 1.2rem;
+}
+
+.ptb-100 {
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* background-color: rebeccapurple; */
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container2{
+    display: flex;
+    gap: 3rem;
+}
+
+.section-title.style1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title.style1  {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    position: relative;
+}
+
+.section-title.style1  img {
+    margin-left: 10px;
+}
+
+.section-title.style1 h2 {
+    font-size: 36px;
+    color: #222;
+    margin-top: 10px;
+}
+
+.project-card {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.project-card .project-img img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card .project-info {
+    padding: 20px;
+    position: relative;
+}
+
+.project-card .project-info .project-shape {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 50px;
+    height: auto;
+}
+
+.project-card .project-info h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.project-card .project-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project-card .project-info .link {
+    color: #3a937f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.project-card.style1 .project-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+.project-card.style1 .project-info .link:hover i {
+    transform: translateX(5px);
+}
+.project-card.style1:hover .project-img img {
+    transform: scale(1.1);
+}
+
+.project-card .project-info .link i {
+    margin-left: 5px;
+}
+
+
+
+
